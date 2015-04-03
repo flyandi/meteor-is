@@ -1,8 +1,8 @@
 Package.describe({
   name: 'flyandi:is',
-  version: '1.0.1',
+  version: '1.0.2',
   summary: 'A tiny library that has some handy methods to quickly check or validate the contents of a variable.',
-  git: 'http://github.com/flyandi/meteor.is.git',
+  git: 'http://github.com/flyandi/meteor-is',
   documentation: 'README.md'
 });
 
