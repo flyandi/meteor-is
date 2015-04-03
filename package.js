@@ -1,7 +1,7 @@
 Package.describe({
   name: 'flyandi:is',
-  version: '1.0.0',
-  summary: 'Is for Meteor is a small library that provides some handy methods to quickly check or validate the contents of a variable.',
+  version: '1.0.1',
+  summary: 'A tiny library that has some handy methods to quickly check or validate the contents of a variable.',
   git: 'http://github.com/flyandi/meteor.is.git',
   documentation: 'README.md'
 });
@@ -9,6 +9,7 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('0.9.0');
   api.addFiles('is.js');
+  api.export('Is');
 });
 
 Package.onTest(function(api) {

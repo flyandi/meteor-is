@@ -1,6 +1,6 @@
 /**
  * flyandi:is library for Meteor
- * @version: v1.0.0
+ * @version: v1.0.1
  * @author: Andy Schwarz
  *
  * Created by Andy Schwarz. Please report any bug at http://github.com/flyandi/meteor.is
@@ -38,7 +38,7 @@
 
 Is = {
 
-	_version: '1.1.0',
+	_version: '1.0.1',
 
 	undefined: 'undefined',
 
